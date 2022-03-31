@@ -2,7 +2,8 @@
 **/.terraform/*
 
 # Don't add this script to Gitlab.  It's used to configure the backend state for Terraform
-init_gitlab_terraform_state.sh
+## UNCOMMENT THE FOLLOWING
+#init_gitlab_terraform_state.sh
 
 # .tfstate files
 *.tfstate

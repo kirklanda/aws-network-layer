@@ -1,5 +1,8 @@
 # Overview
-This project contains Terraform scripts to create a base AWS VPC and subnets.  
+This project contains Terraform scripts to create a base AWS VPC and subnets. 
+
+# TODO when using
+- In the .gitignore file uncomment the line that prevents the init_gitlab_terraform_state.sh file from being included in version control. 
 
 ## Managing Layer Lifetimes
 Where there is a division of team responsibilities then this project would be managed and run by a networking or infrastructure team and the resource made available to other teams to deploy higher level components and applications.
